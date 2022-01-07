@@ -1,0 +1,8 @@
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/alunosWebflux
+    username: postgres
+    password: 1234
+logging:
+  level:
+    org.springframework.data.r2dbc: Debug
